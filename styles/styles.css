@@ -122,8 +122,10 @@ footer {
   hr {
     height: 2px;
     border-width: 0;
-    color: #7286d3;
-    background-color: #7286d3;
+    background-color: #e4002b;
+  }
+  .service {
+    margin: 0 50px;
   }
 }
 @media screen and (min-width: 577px) {
