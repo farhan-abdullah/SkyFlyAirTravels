@@ -104,6 +104,7 @@ footer {
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding: 0;
   }
   ul {
     flex-direction: column;
@@ -117,5 +118,16 @@ footer {
   .service-title {
     margin: 0;
     color: #e4002b;
+  }
+  hr {
+    height: 2px;
+    border-width: 0;
+    color: #7286d3;
+    background-color: #7286d3;
+  }
+}
+@media screen and (min-width: 577px) {
+  hr {
+    display: none;
   }
 }
