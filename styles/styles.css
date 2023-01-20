@@ -41,8 +41,13 @@ ul li a {
   color: white;
   padding: 16px 12px;
   font-size: 20px;
+  cursor: pointer;
 }
-
+.primary-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+}
 /* start main style */
 section {
   margin: 0 240px;
@@ -73,6 +78,7 @@ section {
 }
 .service:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition-duration: 0.4s;
 }
 .service-h3 {
   margin-bottom: 20px;
@@ -100,7 +106,7 @@ section {
 }
 
 .signature-line {
-  color: aliceblue;
+  color: black;
   font-weight: 700;
   font-size: 30px;
 }
