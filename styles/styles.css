@@ -115,12 +115,17 @@ section {
 footer {
   position: relative;
   max-width: 100%;
-  height: 177px;
+  height: 380px;
   background-color: #123962;
   margin: 0 0;
-  color: #07a0e0;
+  color: aliceblue;
+  font-weight: 400;
 }
-
+.pay-contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
 .copyrights {
   display: flex;
   justify-content: center;
@@ -129,7 +134,11 @@ footer {
   border-top: 2px solid gray;
   margin-top: 80px;
 }
-
+.title-end {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
 /* for mobile */
 
 @media screen and (max-width: 576px) {
@@ -165,5 +174,10 @@ footer {
   }
   section {
     margin: 0 10px;
+  }
+  .pay-contact {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
   }
 }
